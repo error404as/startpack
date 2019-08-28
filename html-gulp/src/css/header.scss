@@ -1,0 +1,19 @@
+.header {
+	flex-shrink: 0;
+	display: flex; align-items: center; justify-content: space-between;
+	height: 52px;
+	padding: 0 14px 0 12px;
+	background: #082F5A;
+}
+.header__logo {
+	display: inline-block; vertical-align: middle;
+	width: 120px; height: 32px;
+	margin: auto;
+	background: url(../images/logo.svg) 50% 0 no-repeat;
+	background-size: contain;
+
+	a {
+		display: block;
+		height: 100%;
+	}
+}

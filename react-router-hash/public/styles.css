@@ -1,0 +1,21 @@
+html, body, h1, h2, h3, h4, h5, h6, p, em, strong, abbr, acronym, blockquote, q, cite, ins, del, dfn, a, div, span, pre, hr, address, br, b, i, sub, sup, big, small, tt, table, tr, caption, thead, tbody, tfoot, col, colgroup, form, input, label, textarea, button, fieldset, legend, select, option, optiongroup, ul, ol, dl, dt, dd, code, var, kdb, samp, img, object, param, map, area, bdo, iframe {padding:0; margin:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display:block;}
+html {-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html,body {height:100%;}
+body {font:14px/1.4em sans-serif; color:#111; background:#fff;}
+a {color:#0a75c2; text-decoration:none; cursor:pointer;}
+a:hover {opacity: 0.8;}
+h1 {font-size:30px;} h2 {font-size:22px;} h3 {font-size:18px;} h4 {font-size:15px;}
+h1, h2, h3, h4 {line-height:1.2em;}
+li {margin-left:25px;}
+b, strong {font-weight: bold;}
+img {border:0; max-width: 100%;}
+hr {-moz-box-sizing: content-box; box-sizing: content-box; height: 0;}
+/*--------------------------*/
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 35px;
+    overflow: hidden;
+}

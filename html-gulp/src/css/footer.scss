@@ -1,0 +1,16 @@
+.footer {
+    flex-shrink: 0;
+    padding-bottom: 48px;
+    background: #082F5A;
+    text-align: center;
+
+    .container { padding: 44px 40px 47px; }
+}
+.footer__copy {
+    margin-bottom: 9px;
+    font-size: 14px; font-weight: bold; line-height: 20px;
+}
+.footer__copy-text {
+    margin-bottom: 10px;
+    font-size: 10px;
+}

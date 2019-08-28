@@ -1,0 +1,12 @@
+
+.btn {
+    border: 1px solid transparent;
+    background: none;
+    transition: background .2s;
+
+    &:hover { background: #f0f0f0; }
+    &:focus { border-color: #0a75c2; }
+}
+
+.b-content { text-align: center; }
+.b-content h1 { margin-bottom: 20px; }
