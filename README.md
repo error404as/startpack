@@ -4,8 +4,6 @@
 
 Gulp builds only public/css/styles.css from src/css/base.scss with `autoprefixer`.
 
-Can deploy only latest changed files to SFTP using SSH key (`deploy.config.json`)
-
 ## html-templates
 
 Builder includes SCSS/LESS/Babel and EJS templates generator.
