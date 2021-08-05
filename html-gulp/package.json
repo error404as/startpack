@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/gulp",
-    "deploy": "node deploy.track.js",
-    "deploy:true": "node deploy.js"
+    "build": "./node_modules/.bin/gulp"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +12,10 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
-    "gulp-sass": "^4.0.2",
-    "sftp-upload": "^1.0.1"
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.5"
   }
 }

@@ -1,17 +1,4 @@
-@import './fonts.css';
-
-.u-underline { text-decoration: underline; }
-.u-nobr { white-space: nowrap; }
-.u-hidden { display: none !important; }
-.u-hidden-h { height: 1px; overflow: hidden; opacity: 0; }
-.u-vhidden { visibility: hidden; }
-@media (min-width: 769px) {
-	.u-mobile-only { display: none !important; }
-}
-@media (max-width: 767px) {
-	.u-desktop-only { display: none !important; }
-}
-
+@import './common.scss';
 
 @import './header.scss';
 

@@ -1,0 +1,19 @@
+/* pt-sans-regular - cyrillic_latin */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('PT Sans'), local('PTSans-Regular'),
+		 url('../fonts/pt-sans-v11-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/pt-sans-v11-cyrillic_latin-regular.woff') format('woff'); /* Legacy iOS */
+}
+/* pt-sans-700 - cyrillic_latin */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('PT Sans Bold'), local('PTSans-Bold'),
+		url('../fonts/pt-sans-v11-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/pt-sans-v11-cyrillic_latin-700.woff') format('woff'); /* Legacy iOS */
+}
+

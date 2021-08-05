@@ -1,0 +1,19 @@
+@function toRem($value) {
+    $remValue: ($value / 16) + rem;
+    @return $remValue;
+}
+// font-size: toRem(20);
+
+@mixin Tablet {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+// @include Tablet {  }
+
+@mixin Mobile {
+    @media (max-width: 450px) {
+        @content;
+    }
+}
+// @include Mobile {  }
